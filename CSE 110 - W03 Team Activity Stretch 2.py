@@ -10,7 +10,7 @@ area_sq = round(length_sq ** 2, 2)
 
 # Display the area of the square in cm and m.
 
-print(f'The area of the square is: {area_sq} cm^2 or {area_sq /10000} m^2')
+print(f'The area of the square is: {area_sq} cm^2 or {area_sq / 10000} m^2')
 
 # Receive a length and width of a rectangle in cm.
 
@@ -35,4 +35,4 @@ area_cir = round(math.pi * length_cir ** 2, 2)
 
 # Display the area of the circle in cm and m.
 
-print(f'The area of the circle is: {area_cir} cm^2 or {area_cir /10000} m^2')
+print(f'The area of the circle is: {area_cir} cm^2 or {area_cir / 10000} m^2')
