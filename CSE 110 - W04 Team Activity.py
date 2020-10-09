@@ -32,4 +32,4 @@ c = (1 / 2) * p * A * C
 velocity = math.sqrt(m * g / c) * (1 - math.exp((-math.sqrt(m * g * c)/ m) * t))
 
 print(f'The inner value of c is: {round(c, 3)}')
-print(f'The velocity after {round(t, 1)} seconds is: {round(velocity, 3)} m/s')
+print(f'The velocity after {t} seconds is: {round(velocity, 3)} m/s')
