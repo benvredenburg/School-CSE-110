@@ -78,16 +78,3 @@ print()
 
 if choice_1 == 'yes'.upper():
     print('Please stay tuned for episode 2!')
-    
-
-
-
-
-
-
-
-
-
-
-
-#print()
