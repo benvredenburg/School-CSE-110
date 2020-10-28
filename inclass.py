@@ -1,4 +1,4 @@
-# Ask user question.
+Ask user question.
 
 location = input('Where is the game played? ')
 
