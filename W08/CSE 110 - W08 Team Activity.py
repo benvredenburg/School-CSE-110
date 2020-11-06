@@ -18,7 +18,7 @@ while answer != 'No':
 
     while guess != magic_number:
         guess = int(input('What is your guess [1 - 100]? '))
-        guesses = guesses + 1
+        guesses =+ 1
         print()
         if guess > magic_number:
             print('Lower')

@@ -51,11 +51,10 @@ for x in range(0, width):
 for x in range(0, width):
     for y in range(0, height):
         (r, g, b) = pixels_cactus[x, y]
-
-        if r < 150 and b < 150 and g > 100:
+        if r < 100 and b < 100 and g > 150:
             pixels_cactus[x, y] = pixels_desert[x, y]
 
 
 
-image_cactus.save('W08Milestone.jpg')
-# image_cactus.show()
+# image_cactus.save('W08Milestone.jpg')
+image_cactus.show()
