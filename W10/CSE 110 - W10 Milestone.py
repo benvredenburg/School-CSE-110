@@ -9,8 +9,6 @@ quantities = []
 # Create a default variable for the loop.
 choice = None
 
-subtotal = 0
-
 while choice != 5:
     print()
     print('Please select one of the following:')
@@ -48,6 +46,7 @@ while choice != 5:
         del prices[index - 1] 
         del quantities[index - 1]
     elif choice == 4:
+        subtotal = 0
         print()
         for i in range(len(cart)):
             subtotal += prices[i] * quantities[i]
