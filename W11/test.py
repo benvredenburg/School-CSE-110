@@ -23,7 +23,7 @@ with open('W11life-expectancy.csv', 'r') as life_file:
     average = 0
     average_list = []
     choice1 = int(input('Which year would you like to check the average for? '))
-    choice2 = input('Which country would you like to see statistics for? ')
+    choice2 = input('Which country would you like to see statistics for? ').capitalize()
     user_lowest = 100
     user_low = []
     user_highest = 0
