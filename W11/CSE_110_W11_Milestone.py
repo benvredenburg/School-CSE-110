@@ -13,7 +13,7 @@ with open('W11life-expectancy.csv', 'r') as life_file:
 # Skip header.
     next(csvreader)
 
-# Create defaul values for iteration.
+# Create default values for iteration.
     lowest = 100
     low = []
     highest = 0
