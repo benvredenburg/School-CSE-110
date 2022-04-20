@@ -8,3 +8,4 @@ if {shirt_color.upper()} == {fav_color.upper()}:
     print("Why am I not surprised?")
 else:
     print(f"Why aren't you wearing {fav_color}?")
+    #test
